@@ -14,7 +14,10 @@ spring:
           uri: lb://playlist-service/
           predicates:
             - Path=/playlist/**
-
+management:
+  tracing:
+    sampling:
+      probability: 1.0
 
 eureka:
   client:
@@ -30,3 +33,11 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
+logging:
+  logging:
+    pattern:
+      level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
+  level:
+    org:
+      springframework:
+        web: DEBUG

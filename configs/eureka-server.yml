@@ -9,7 +9,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    registry-fetch-interval-seconds: 5
+        registry-fetch-interval-seconds: 5
     healthcheck:
       enabled: true
     service-url:

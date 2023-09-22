@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/artists-service/artists-service.iml" filepath="$PROJECT_DIR$/artists-service/artists-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/my-spotify.iml" filepath="$PROJECT_DIR$/.idea/my-spotify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playlist-service/playlist-service.iml" filepath="$PROJECT_DIR$/playlist-service/playlist-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/song-service/song-service.iml" filepath="$PROJECT_DIR$/song-service/song-service.iml" />
+    </modules>
+  </component>
+</project>
