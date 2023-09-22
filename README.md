@@ -32,7 +32,8 @@ Lo invito a forkear este repositorio si quiere construir una aplicación de **MI
 ## Acerca del Proyecto
 
 Se trata de un aplicación de microservicios por medio de la cual se puede guardar artistas y canciones y luego hacer consultas rápidas. En el siguiente esquema se puede observar su funcionamiento: 
-![image](https://github.com/vlambo3/my-spotify/assets/86501009/e9d46399-7e03-4129-b849-9d282b5fb556)
+![image](https://github.com/vlambo3/my-spotify/assets/86501009/9b696a8c-7e95-470e-a596-76b67a01fad3)
+
 
 Se trata de tres microservicios: *API PLAYLIST*, *API SONG* y *API ARTIST*, que se encuentran registrados como clientes de Eureka y registrados en el *EUREKA SERVER*. Utilizan **Open Feign** para la comunicación sincrónica y **RabbitMQ** para la comunicación asincrónica.
 Para el desarrollo del proyecto se usaron bases de datos relacionales y no relacionales (**MySQL** y **MongoDB**). 
