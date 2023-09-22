@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/vlambo3/my-spotify
+          uri: https://github.com/vlambo3/my-spotify-configurations
           default-label: main
-          search-paths: configs
+
 
