@@ -1,0 +1,24 @@
+version: '3.3'
+services:
+  mysql:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'song-dev'
+      MYSQL_USER: 'usr-song'
+      MYSQL_PASSWORD: 'pwd-song'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - '3380:3306'
+    expose:
+      - '3306'
+  zipkin:
+    image: openzipkin/zipkin:2
+    ports:
+      - 9411:9411
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+   
